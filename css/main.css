@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import "./header.min.css";
+@import "./home.min.css";
+@import "./about.min.css";
+@import "./advice.min.css";
+@import "./services.min.css";
+@import "./contact.min.css";
+@import "./footer.min.css";
+@import "./others.min.css";
+    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+
+#backtop {
+   background-color:#00A0C1;
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+   border-radius: 10px;
+   text-align: center;
+   display: none;
+  }
+  #backtop a{
+    font-size: 30px;
+    color: white;
+    padding: 40px 15px;
+  }
+  
+  #backtop.backtop-show {
+      display: block;
+  }
+#about{
+    padding-top: 20px;
+}
+#advice{
+    padding-top: 80px;
+}
+
